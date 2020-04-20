@@ -1,9 +1,9 @@
 let myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello ROWING!';
+myHeading.textContent = 'NCWU ROWING';
 document.querySelector('h1').onclick = function() {
-    alert('别戳我，我怕疼。');
+    alert('没有更多。');
 }
-let myImage = document.querySelector('img');
+/*let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
@@ -13,10 +13,10 @@ myImage.onclick = function() {
       myImage.setAttribute('src', 'images/test.png');
     }
 }
-/*let myButton = document.querySelector('button');
+let myButton = document.querySelector('button');
 let myHeading1 = document.querySelector('h2');
-
-function setUserName() {
+*/
+/*function setUserName() {
     let myName = prompt('请输入你的名字。');
     if(!myName || myName === null) {
       setUserName();

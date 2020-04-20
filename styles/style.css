@@ -5,9 +5,15 @@ html {
   font-family: 'Open Sans', sans-serif; 
 }
 h1 {
-  font-size: 60px;
+  font-size: 40px;
   /*字体对齐*/
   text-align: center;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 15px;
 }
 
 p, li {
@@ -38,7 +44,7 @@ h1 {
   text-shadow: 3px 3px 1px black;
 }
 img {
-  width: 600px;
+  width: 100px;
   display: block;
   margin: 0 auto;
 }
