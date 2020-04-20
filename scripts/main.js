@@ -13,7 +13,7 @@ myImage.onclick = function() {
       myImage.setAttribute('src', 'images/test.png');
     }
 }
-let myButton = document.querySelector('button');
+/*let myButton = document.querySelector('button');
 let myHeading1 = document.querySelector('h2');
 
 function setUserName() {
@@ -34,4 +34,4 @@ function setUserName() {
 
   myButton.onclick = function() {
     setUserName();
- }
+ }*/
