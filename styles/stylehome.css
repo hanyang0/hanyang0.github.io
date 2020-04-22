@@ -9,7 +9,7 @@ html, body {
   }
   
   body {
-    width: 70%;
+    width: 90%;
     min-width: 900px;
     margin: 0 auto;
   }
@@ -60,6 +60,7 @@ html, body {
   }
   main  {
     border: 7px solid #DA9C23;
+    height: 600px;
     background-color: rgb(255, 255, 255);
   }
 
