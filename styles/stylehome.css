@@ -10,7 +10,7 @@ html, body {
   
   body {
     width: 90%;
-    min-width: 900px;
+    min-width: 600px;
     margin: 0 auto;
   }
   
@@ -44,6 +44,12 @@ html, body {
   p, li {
     font-size: 1.6rem;
     line-height: 1.5;
+  }
+  iframe {
+    width: 54vw;
+    height: 32.4vw;
+    min-width: 360px;
+    min-height: 218px;
   }
   
   /* 页眉布局 */
