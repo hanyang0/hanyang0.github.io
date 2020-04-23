@@ -6,6 +6,7 @@
      <meta name="description" content="华水赛艇的介绍网站">
      <title>华水赛艇</title>
      <link href="styles/style.css" rel="stylesheet">
+     <link href="styles/stylehomenav.css" rel="stylesheet">
      <link href="https://fonts.font.im/css?family=Open+Sans" rel="stylesheet" type="text/css"> 
      <link href="styles/styleform.css" rel="stylesheet">
      <script src="scripts/main.js" defer></script>
@@ -13,6 +14,18 @@
     </head>
     <body>
         <header>
+            <nav>
+                <ul id="top">
+                    <li><a href="index.html"><strong>华水赛艇</strong></a></li>
+                    <li><a href="introduction.html">介绍</a></li>
+                    <li><a href="achievement.html">赛绩</a></li>
+                    <li><a href="form.html"><u>招新</u></a></li>
+                    <li><a href="#">照片</a></li>
+                    <li><a href="#">视频</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+                </nav>
+                <hr>
             <h1 id="top">NCWU ROWING </h1>
             <figure>
                <img src="images/test.png" alt="队徽" width="100px" title="华水赛艇队徽">
@@ -22,34 +35,45 @@
 
         <main>
             <h2><strong>华北水利水电大学赛艇队招新报名表(暂不可用)</strong></h2>
-            <form action="/my-handling-form=page" method="POST">
+            <form action="#" method="POST">
                 <div>
                     <label for="name">姓名:</label>
-                    <input type="text" id="name" name="user_name">
+                    <input type="text" id="name" name="user_name" required>
                 </div>
                 <div>
                     <label for="sex">性别:</label>
-                    <input type="text" id="sex" name="user_sex">
+                    <select id="sex" name="user_sex" required>
+                        <option value="male">男</option>
+                        <option value="female">女</option>
+                    </select>
                 </div>
                 <div>
-                    <label for="number"><abbr title="(例：2018xxxxx)">学号:</abbr></label>
-                    <input type="number" id="number" name="user_number">
+                    <label for="month">出生年月:</label>
+                    <input type="month" name="month" id="month" min="1990-06-01" max="2022-08-31" required>
+                </div>
+                <div>
+                    <label for="number">学号:</label>
+                    <input type="number" id="number" name="user_number" required maxlength="9" minlength="9" >
                 </div>
                 <div>
                     <label for="collage">学院:</label>
-                    <input type="text" id="collage" name="user_collage">
+                    <input type="text" id="collage" name="user_collage" required>
                 </div>
                 <div>
                     <label for="height"><abbr title="(厘米)">身高:</abbr></label>
-                    <input type="number" id="height" name="user_height">
+                    <input type="number" id="height" name="user_height" required min="0" max="300">
                 </div>
                 <div>
                     <label for="weight"><abbr title="（公斤）">体重</abbr>:</label>
-                    <input type="number" id="weight" name="user_weight">
+                    <input type="number" id="weight" name="user_weight" required min="0" max="200">
+                </div>
+                <div>
+                    <label for="tele">电话:</label>
+                    <input type="tel" id="tele" name="user_height" required pattern="[0-9]{11}">
                 </div>
                 <div>
                     <label for="reason">进队原因:</label>
-                    <textarea id="reason" name="user_reason"></textarea>
+                    <textarea id="reason" name="user_reason" required ></textarea>
                 </div>
                 <div class="button">
                     <button type="submit">提交</button>
