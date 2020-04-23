@@ -30,7 +30,7 @@ body {
   /*padding：即内边距，围绕着内容（比如段落）的空间。
 border：即边框，紧接着内边距的线。
 margin：即外边距，围绕元素外部的空间*/
-  width: 700px;
+  width: 800px;
   margin: 0 auto;
   background-color: #FFFFFF;
   padding: 0px 20px 20px 20px;
