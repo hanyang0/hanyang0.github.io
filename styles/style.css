@@ -1,20 +1,20 @@
 html {
-  font-size: 0.7em; 
+  font-size: 0.7vw; 
   font-family: 'Open Sans', sans-serif; 
 }
 h1 {
-  font-size: 3em;
+  font-size: 3vw;
   text-align: center;
 }
 h2 {
-  font-size: 2em;
+  font-size: 1.8vw;
 }
 h3 {
-  font-size: 1.5em;
+  font-size: 1.5vw;
 }
 
 p, li {
-  font-size: 1.5em;    
+  font-size: 1.3vw;    
   line-height: 2;
   letter-spacing: 1px;
 }
@@ -23,7 +23,7 @@ html {
 }
 body {
   width: 70%;
-  min-width: 800px;
+  min-width: 500px;
   margin: 0 auto;
   background-color: #FFFFFF;
   padding: 0px 20px 20px 20px;
@@ -33,9 +33,12 @@ h1 {
   margin: 0;
   padding: 20px 0;    
   color: #1E2A8B;
-  text-shadow: 3px 3px 1px black;
+  text-shadow: 0.2vw 0.2vw 0.1vw black;
 }
 img {
   display: block;
   margin: 0 auto;
+}
+a:visited {
+  color:#1E2A8B
 }

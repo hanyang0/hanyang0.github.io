@@ -1,6 +1,5 @@
 
   html {
-    font-size: 0.7em;
     background-color: #ffffff;
   }
   
@@ -27,13 +26,16 @@
   nav {
     background-color: #1E2A8B;
     padding: 1%;
-    height: 50px;
+    height: 4vw;
     flex: 100%;
     display: flex;
+    align-items: center;
+  
   }
   main  {
     border: 7px solid #DA9C23;
     background-color: rgb(255, 255, 255);
+    font-size: 0.7vw;
   }
 
   nav ul {
@@ -51,14 +53,19 @@
   
   nav a, nav div {
     display: inline-block;
-    font-size: 2em;
-    height: 3em;
+    font-size: 2vw;
+    height: 3vw;
     color: #DA9C23;
     text-decoration: none;
   }
 
   footer {
     margin-top: 10px;
-    font-size: 1em;
+    font-size: 1vw;
   }
-  
+  img {
+    position: left center;
+  }
+  iframe {
+    position: right center;
+  }
