@@ -31,14 +31,14 @@
    
   
   h1 {
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 800;
   }
   h3 {
      font-size: 2rem; 
   }
   div ul , div li  {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 1rem;
   }
   
@@ -46,7 +46,7 @@
     position: absolute;
     top: 1rem;
     right: 1rem;
-    width: 65%;
+    width: 63%;
     height: 13rem;
     padding: 0rem 3rem;
   }
@@ -54,7 +54,7 @@
     position: absolute;
     top: 16rem;
     right: 1rem;
-    width: 40%;
+    width: 38%;
     height: 50rem;
     padding: 0rem 3rem;
   }
@@ -62,7 +62,7 @@
     position: absolute;
     top: 38rem;
     left: 1rem;
-    width: 40%;
+    width: 38%;
     height: 45rem;
     padding: 0rem 3rem;
   }
@@ -70,7 +70,7 @@
     position: absolute;
     top: 70rem;
     right: 1rem;
-    width: 40%;
+    width: 38%;
     height: 48rem;
     padding: 0rem 3rem;
   }
@@ -79,7 +79,7 @@
     position: absolute;
     top: 88rem;
     left: 1rem;
-    width: 40%;
+    width: 38%;
     height: 48rem;
     padding: 0rem 3rem;
   }
@@ -87,7 +87,7 @@
     position: absolute;
     top: 122rem;
     right: 1rem;
-    width: 40%;
+    width: 38%;
     height: 14rem;
     padding: 0rem 3rem;
   }
@@ -95,9 +95,9 @@
 
   .img1 {
     position: absolute;
-    left: 24rem;
-    top: 16rem;
-    width: 21%;
+    left: 27%;
+    top: 17rem;
+    width: 19%;
     border-radius: 0.75rem;
     text-shadow: 1px 1px 0 rgb(12, 125, 224);
     box-shadow: -5px -5px 20px rgb(12, 125, 224), 5px 5px 20px rgb(1, 44, 82);
