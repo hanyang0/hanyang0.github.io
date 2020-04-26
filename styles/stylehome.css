@@ -1,71 +1,146 @@
+body {
+    background-color: rgb(3,90,166);
+    min-width: 1000px;
+}
 
-  html {
-    background-color: #ffffff;
-  }
-  
-  body {
-    width: 90%;
-    min-width: 600px;
-    margin: 0 auto;
-    padding-top: 5px;
-  }
-  
-  iframe {
-    width: 54vw;
-    height: 32.4vw;
-    min-width: 360px;
-    min-height: 218px;
-  }
 
-  header {
-    margin-bottom: 5px;
-    display: flex;
-    flex-flow: row wrap;
-  }
-  
-  nav {
-    background-color: #1E2A8B;
-    padding: 1%;
-    height: 4vw;
+nav {
+    height: 1.5em;
     flex: 100%;
     display: flex;
     align-items: center;
-  
-  }
-  main  {
-    border: 7px solid #DA9C23;
-    background-color: rgb(255, 255, 255);
-    font-size: 0.7vw;
-  }
+    width: 100%;
+}
 
-  nav ul {
-    list-style-type: none;
+    nav ul {
+        list-style-type: none;
+        flex: 2;
+        display: flex;
+    }
+
+    nav li {
+        display: inline;
+        text-align: center;
+        flex: 1;
+    }
+
+ul, a {
+    margin: 2rem 1rem 0rem 1rem;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.5rem;
+    height: 1.5em;
+    text-shadow: 2px 2px 2px rgb(12, 125, 224);
+}
+
+ul {
+    width: 100%;
+    border-radius: 0.75rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    box-shadow: -5px -5px 20px rgb(12, 125, 224), 5px 5px 20px rgb(1, 44, 82);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+main {
+    position: relative;
+    top: 4rem;
+}
+
+.img1 {
+    position: absolute;
+    left: 1rem;
+    width: 22%;
+    border-radius: 0.75rem;
+    text-shadow: 1px 1px 0 rgb(12, 125, 224);
+    box-shadow: -5px -5px 20px rgb(12, 125, 224), 5px 5px 20px rgb(1, 44, 82);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
     flex: 2;
     display: flex;
-    color: #DA9C23;
-  }
-  
-  nav li {
-    display: inline;
-    text-align: center;
-    flex: 1;
-  }
-  
-  nav a, nav div {
-    display: inline-block;
-    font-size: 2vw;
-    height: 3vw;
-    color: #DA9C23;
-    text-decoration: none;
-  }
+}
 
-  footer {
-    margin-top: 10px;
-    font-size: 1vw;
-  }
-  img {
-    position: left center;
-  }
-  iframe {
-    position: right center;
-  }
+iframe {
+    position: absolute;
+    right: 1rem;
+    border: 1px;
+    width: 70%;
+    height: 30rem;
+    border-radius: 0.75rem;
+    text-shadow: 1px 1px 0 rgb(12, 125, 224);
+    box-shadow: -7px -7px 30px rgb(18, 137, 241), 7px 7px 30px rgb(1, 39, 71);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.text1 {
+    position: absolute;
+    top: 23rem;
+    left: 1rem;
+    width: 22%;
+    height: 7rem;
+    border-radius: 0.75rem;
+    text-shadow: 1px 1px 0 rgb(12, 125, 224);
+    box-shadow: -5px -5px 20px rgb(12, 125, 224), 5px 5px 20px rgb(1, 44, 82);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    flex: 2;
+    display: flex;
+}
+
+.text2, .text3 {
+    box-shadow: -5px -5px 20px rgb(12, 125, 224), 5px 5px 20px rgb(1, 44, 82);
+    border-radius: 0.75rem;
+    margin: 2rem 1rem 0rem 1rem;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1rem;
+    height: 1.5em;
+    text-shadow: 2px 2px 2px rgb(12, 125, 224);
+    padding: 2rem;
+}
+
+.text2 {
+    position: absolute;
+    top: 31rem;
+    width: 76%;
+    height: 2rem;
+}
+
+.text3 {
+    position: absolute;
+    top: 31rem;
+    width: 10%;
+    right: 0rem;
+    height: 2rem;
+}
+
+
+
+
+
+ul:active {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+}
+
+.img1:active {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+}
+
+iframe:hover {
+    box-shadow: inset 3px 3px 6px rgb(12, 125, 224), inset -3px -3px 6px rgb(1, 44, 82);
+}
+
+.text1:active {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+}
+
+.text2:active {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+}
+
+.text3:active {
+    box-shadow: inset 2px 2px 4px rgb(12, 125, 224), inset -2px -2px 4px rgb(1, 44, 82);
+}
